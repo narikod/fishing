@@ -1,0 +1,62 @@
+
+.fish2 {
+    transform: scale(-1,1);
+}
+.fish2r {
+    height: 60px;
+    animation: myAnim 5s linear alternate infinite;
+    animation-direction: reverse;
+}
+@keyframes myAnim {
+ from {
+   margin-left: 0;
+ }
+ to {
+   margin-left: 100%;
+ }
+}
+
+.ad1 {
+float: left;
+padding-top: 40px;
+}
+
+.ad2 {
+float: right;
+padding-top: 40px;
+}
+.card {
+    max-width: 250px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: cadetblue;
+}
+.dom {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adf {
+}
+
+.asdf {
+    background-image: url(img/1a610f8812115c8746556b54b332f051.jpg);
+    background-size: cover;
+
+}
+
+.fish1r {
+animation: myAnim 5s linear alternate infinite;
+animation-direction: normal;
+animation-duration: 2s;
+}
+@keyframes myAnim {
+ from {
+   margin-left: 0;
+ }
+ to {
+   margin-left: 100%;
+ }
+}
